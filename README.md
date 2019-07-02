@@ -13,3 +13,7 @@ respective pages listed above for more information and the respective Copyright 
 - Specify `PRODUCT_PACKAGES += bromite-webview` in a 'product' .mk file (**not** in an Android.mk file)
 - An 'elegant' way to do so without having to fork and track any specific device or vendor repository is to simply create an own product.mk file in directory vendor/extras (or to add the above statement into an existing one)
 - It is not necessary to remove the default webview repo from the build tree
+
+## Updating packages
+As Bromite SystemWebView is constantly being updated, it is recommended to acquire the latest package from [official website](https://www.bromite.org/system_web_view) after syncing the repository, so you can build your ROM with an up-to-date version of Bromite SystemWebView.  
+Note that you may need to place the updated packages again in case of a forced sync (which discards local changes).
